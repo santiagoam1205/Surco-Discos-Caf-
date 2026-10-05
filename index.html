@@ -1,216 +1,29 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Surco Discos &amp; Café | Inicio</title>
-  <meta name="description" content="Discos nuevos y usados, café de origen y música en vivo cada viernes en Armenia, Quindío.">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surco Discos y cafe</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="header">
+    <div class="container header">
 
-  <!-- ENCABEZADO -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo">SURCO<span class="logo-dot">.</span></a>
+      <a href="index.html" class="logo">SURCO<span>.
 
-      <nav class="main-nav" aria-label="Navegación principal">
-        <a href="index.html" class="nav-link is-active" aria-current="page">Inicio</a>
-        <a href="catalogo.html" class="nav-link">Catálogo</a>
-        <a href="disco-del-mes.html" class="nav-link">Disco del mes</a>
-        <a href="agenda.html" class="nav-link">Agenda</a>
-        <a href="nosotros.html" class="nav-link">Nosotros</a>
-        <a href="contacto.html" class="nav-link">Contacto</a>
+      </span></a>
+
+      <nav class="menu-nav">
+
+        <a href="index.html">Inicio</a>
+        <a href="catalogo.html">Catalogo</a>
+        <a href="disco-del-mes.html">Disco del mes</a>
+        <a href="agenda.html">Agenda</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contactos.html">Contacto</a>
       </nav>
     </div>
   </header>
-
-  <!-- FRANJA NEGRA -->
-  <div class="topbar">
-    <p>Discos nuevos y usados · Café de origen · Música en vivo cada viernes</p>
-  </div>
-
-  <main>
-
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <p class="eyebrow">Armenia · Quindío · Desde 2014</p>
-          <h1 class="hero-title">Discos, café y <span class="accent">ruido</span> del bueno</h1>
-          <p class="hero-lead">Una tienda pequeña con muchos vinilos. Ven, busca entre las cajas, pide un tinto y escucha antes de comprar.</p>
-          <div class="hero-actions">
-            <a href="catalogo.html" class="btn btn-dark">Ver catálogo</a>
-            <a href="agenda.html" class="btn btn-outline">Agenda de la semana</a>
-          </div>
-        </div>
-
-        <div class="hero-visual">
-          <img src="img/hero.png" width="1000" height="800" alt="Portada del disco Tinto doble de Los Cafeteros del Ruido junto a un vinilo">
-        </div>
-      </div>
-    </section>
-
-    <!-- RECIÉN LLEGADOS -->
-    <section class="arrivals">
-      <div class="container">
-        <div class="section-head">
-          <h2 class="section-title">Recién llegados</h2>
-          <a href="catalogo.html" class="link-underline">Ver todo el catálogo →</a>
-        </div>
-
-        <div class="album-grid">
-
-          <article class="album">
-            <img class="cover" src="img/tinto-doble.jpg" width="800" height="800" alt="Portada de Tinto doble" loading="lazy">
-            <div class="album-info">
-              <div>
-                <h4 class="album-name">Tinto doble</h4>
-                <p class="album-artist">Los Cafeteros del Ruido</p>
-              </div>
-              <span class="album-price">$120.000</span>
-            </div>
-          </article>
-
-          <article class="album">
-            <img class="cover" src="img/pacifico-electrico.jpg" width="800" height="800" alt="Portada de Pacífico eléctrico" loading="lazy">
-            <div class="album-info">
-              <div>
-                <h4 class="album-name">Pacífico eléctrico</h4>
-                <p class="album-artist">Marimba Norte</p>
-              </div>
-              <span class="album-price">$135.000</span>
-            </div>
-          </article>
-
-          <article class="album">
-            <img class="cover" src="img/andina-nocturna.jpg" width="800" height="800" alt="Portada de Andina nocturna" loading="lazy">
-            <div class="album-info">
-              <div>
-                <h4 class="album-name">Andina nocturna</h4>
-                <p class="album-artist">La Bandola Rota</p>
-              </div>
-              <span class="album-price">$98.000</span>
-            </div>
-          </article>
-
-          <article class="album">
-            <img class="cover" src="img/salento-5am.jpg" width="800" height="800" alt="Portada de Salento 5 a.m." loading="lazy">
-            <div class="album-info">
-              <div>
-                <h4 class="album-name">Salento 5 a.m.</h4>
-                <p class="album-artist">Neblina</p>
-              </div>
-              <span class="album-price">$110.000</span>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- CAFÉ / LA CARTA -->
-    <section class="cafe">
-      <div class="container">
-        <div class="cafe-box">
-
-          <div class="cafe-intro">
-            <p class="eyebrow">También somos café</p>
-            <h2 class="cafe-title">Escucha un disco con un tinto en la mano</h2>
-            <p class="cafe-text">Tenemos tocadiscos en cada mesa. Escoge un vinilo, pídelo en la barra y ponlo tú mismo.</p>
-            <a href="nosotros.html" class="btn btn-light">Conoce el lugar</a>
-          </div>
-
-          <div class="menu">
-            <h3 class="menu-title">La carta</h3>
-            <ul class="menu-list">
-              <li><span>Tinto campesino</span><span>$3.000</span></li>
-              <li><span>Filtrado V60</span><span>$8.000</span></li>
-              <li><span>Capuchino</span><span>$7.000</span></li>
-              <li><span>Aromática de la casa</span><span>$4.000</span></li>
-              <li><span>Pandebono</span><span>$3.500</span></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- AGENDA -->
-    <section class="agenda">
-      <div class="container">
-        <div class="section-head">
-          <h2 class="section-title">Esta semana suena</h2>
-          <a href="agenda.html" class="link-underline">Ver agenda completa →</a>
-        </div>
-
-        <ul class="event-list">
-          <li class="event">
-            <div class="event-date">
-              <span class="event-day">03</span>
-              <span class="event-month">Oct</span>
-            </div>
-            <div class="event-info">
-              <h3 class="event-title">Marimba Norte en vivo</h3>
-              <p class="event-meta">Viernes · 7:00 p.m. · Entrada libre con consumo</p>
-            </div>
-            <a href="agenda.html" class="btn btn-outline btn-small">Detalles</a>
-          </li>
-
-          <li class="event">
-            <div class="event-date">
-              <span class="event-day">05</span>
-              <span class="event-month">Oct</span>
-            </div>
-            <div class="event-info">
-              <h3 class="event-title">Feria de discos usados</h3>
-              <p class="event-meta">Domingo · 10:00 a.m. · Trae tus vinilos para cambiar</p>
-            </div>
-            <a href="agenda.html" class="btn btn-outline btn-small">Detalles</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- PIE DE PÁGINA -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-top">
-        <div class="footer-brand">
-          <a href="index.html" class="logo logo-light">SURCO<span class="logo-dot">.</span></a>
-          <p>Discos y café desde 2014.<br>Carrera 14 #18-32, Armenia, Quindío.</p>
-        </div>
-
-        <nav class="footer-col" aria-label="Tienda">
-          <h4 class="footer-heading">Tienda</h4>
-          <a href="catalogo.html">Catálogo</a>
-          <a href="disco-del-mes.html">Disco del mes</a>
-          <a href="agenda.html">Agenda</a>
-        </nav>
-
-        <nav class="footer-col" aria-label="Surco">
-          <h4 class="footer-heading">Surco</h4>
-          <a href="nosotros.html">Nosotros</a>
-          <a href="contacto.html">Contacto</a>
-        </nav>
-
-        <nav class="footer-col" aria-label="Redes sociales">
-          <h4 class="footer-heading">Redes</h4>
-          <a href="#">Instagram</a>
-          <a href="#">Spotify</a>
-          <a href="#">WhatsApp</a>
-        </nav>
-      </div>
-
-      <div class="footer-bottom">
-        <p>© 2026 Surco Discos &amp; Café</p>
-        <p>Proyecto de práctica · ADSO SENA</p>
-      </div>
-    </div>
-  </footer>
-
 </body>
 </html>
