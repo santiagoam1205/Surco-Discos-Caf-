@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2ebdd;
+  color: #1c1a17;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #1c1a17;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: "Anton", Impact, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.rojo {
+  color: #d6402b;
+}
+
+.antetitulo {
+  color: #d6402b;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/*BOTONES*/
+
+.boton {
+  display: inline-block;
+  padding: 16px 28px;
+  border: 2px solid #1c1a17;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.boton-negro {
+  background-color: #1c1a17;
+  color: #f2ebdd;
+}
+
+.boton-negro:hover {
+  background-color: #d6402b;
+  border-color: #d6402b;
+}
+
+.boton-borde {
+  background-color: transparent;
+}
+
+.boton-borde:hover {
+  background-color: #1c1a17;
+  color: #f2ebdd;
+}
+
+.boton-claro {
+  color: #f2ebdd;
+  border-color: #f2ebdd;
+}
+
+.boton-claro:hover {
+  background-color: #f2ebdd;
+  color: #1c1a17;
+}
+
+/* HEADER */
+
+.header-contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+
+.logo {
+  font-family: "Anton", Impact, sans-serif;
+  font-size: 34px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #d6402b;
+}
+
+.menu-nav {
+  display: flex;
+  gap: 26px;
+}
+
+.menu-nav a {
+  padding-bottom: 6px;
+  border-bottom: 3px solid transparent;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu-nav a:hover {
+  color: #d6402b;
+}
+
+.menu-nav a.activo {
+  border-bottom: 3px solid #d6402b;
+}
+
+/* CINTA NEGRA */
+
+.cinta {
+  background-color: #1c1a17;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.cinta p {
+  color: #f2ebdd;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* HERO PARA EL INDEX */
+
+.hero {
+  padding: 60px 0;
+  border-bottom: 2px solid #1c1a17;
+}
+
+.hero-contenido {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-texto {
+  width: 52%;
+}
+
+.hero-imagen {
+  width: 48%;
+}
+
+.hero h1 {
+  margin: 10px 0 22px;
+  font-size: 100px;
+}
+
+.hero-parrafo {
+  max-width: 540px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.botones {
+  display: flex;
+  gap: 14px;
+}
+
+/* RECIEN LLEGADOS APARTADO DEL INDEX */
+
+.llegados {
+  padding: 70px 0 90px;
+}
+
+.titulo-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.enlace-subrayado {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.enlace-subrayado:hover {
+  color: #d6402b;
+}
+
+.discos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 32px;
+}
+
+.disco img {
+  border: 2px solid #1c1a17;
+}
+
+.disco-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.disco-nombre,
+.disco-precio {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.disco-artista {
+  color: #6b645a;
+  font-size: 14px;
+}
