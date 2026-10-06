@@ -530,3 +530,217 @@ h2 {
   font-size: 13px;
   font-weight: 700;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+ 
+  .container {
+    padding: 0 30px;
+  }
+ 
+  
+  .header-contenido {
+    flex-direction: column;
+    gap: 14px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+ 
+  .menu-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
+  }
+ 
+  .cinta p {
+    letter-spacing: 1px;
+  }
+ 
+  /* index */
+  .hero-contenido {
+    flex-direction: column;
+  }
+ 
+  .hero-texto,
+  .hero-imagen {
+    width: 100%;
+  }
+ 
+  .hero h1 {
+    font-size: 80px;
+  }
+ 
+  .discos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .cafe-caja {
+    grid-template-columns: 1fr;
+  }
+ 
+  /* nosotros */
+  .pagina-titulo h1 {
+    font-size: 76px;
+  }
+ 
+  .historia-contenido {
+    flex-direction: column;
+    gap: 30px;
+  }
+ 
+  .historia-destacado,
+  .historia-texto {
+    width: 100%;
+  }
+ 
+  .cifras {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  .cifra:nth-child(3),
+  .cifra:nth-child(4) {
+    border-top: 2px solid #1c1a17;
+  }
+ 
+  /* footer */
+  .footer-columnas {
+    flex-wrap: wrap;
+  }
+ 
+  .footer-marca {
+    width: 100%;
+  }
+ 
+  .footer-col {
+    width: 30%;
+  }
+}
+
+/* RESPONSIVE PREVISTO PARA CELULAR 600PX */
+
+@media (max-width: 600px) {
+ 
+  .container {
+    padding: 0 20px;
+  }
+ 
+  h2 {
+    font-size: 38px;
+  }
+ 
+  .cinta p {
+    font-size: 11px;
+  }
+ 
+  /* index */
+  .hero {
+    padding: 40px 0;
+  }
+ 
+  .hero h1 {
+    font-size: 54px;
+  }
+ 
+  .hero-parrafo {
+    font-size: 16px;
+  }
+ 
+  .botones {
+    flex-direction: column;
+  }
+ 
+  .boton {
+    text-align: center;
+  }
+ 
+  .llegados,
+  .agenda {
+    padding: 50px 0;
+  }
+ 
+  .titulo-fila {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+ 
+  .discos {
+    gap: 16px;
+  }
+ 
+  .disco-info {
+    flex-direction: column;
+    gap: 2px;
+  }
+ 
+  .cafe-texto,
+  .carta {
+    padding: 30px 24px;
+  }
+ 
+  .evento {
+    flex-wrap: wrap;
+  }
+ 
+  .evento-info {
+    width: calc(100% - 125px);
+    flex: none;
+  }
+ 
+  .evento .boton {
+    width: 100%;
+  }
+ 
+  .evento-info h3 {
+    font-size: 26px;
+  }
+ 
+  /* nosotros */
+  .pagina-titulo {
+    padding: 40px 0 30px;
+  }
+ 
+  .pagina-titulo h1 {
+    font-size: 60px;
+  }
+ 
+  .historia {
+    padding: 40px 0;
+  }
+ 
+  .historia-destacado {
+    font-size: 24px;
+  }
+ 
+  .cifra {
+    padding: 24px 14px;
+  }
+ 
+  .cifra-numero {
+    font-size: 48px;
+  }
+ 
+  .equipo {
+    padding: 50px 0;
+  }
+ 
+  .tarjetas {
+    grid-template-columns: 1fr;
+  }
+ 
+  /* footer */
+  .footer-col {
+    width: 45%;
+  }
+ 
+  .footer-marca .logo {
+    font-size: 50px;
+  }
+ 
+  .footer-abajo {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
