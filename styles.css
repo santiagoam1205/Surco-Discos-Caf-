@@ -346,3 +346,187 @@ h2 {
 }
 
 /* NOSOTROS */
+
+.pagina-titulo {
+  padding: 70px 0 40px;
+  border-bottom: 2px solid #1c1a17;
+}
+
+.pagina-titulo h1 {
+  font-size: 90px;
+}
+ 
+.pagina-titulo p {
+  max-width: 480px;
+  margin-top: 8px;
+  color: #6b645a;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.historia {
+  padding: 70px 0;
+}
+ 
+.historia-contenido {
+  display: flex;
+  gap: 100px;
+}
+ 
+.historia-destacado {
+  width: 50%;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+ 
+.historia-texto {
+  width: 50%;
+  font-size: 15px;
+  line-height: 1.7;
+}
+ 
+.historia-texto p {
+  margin-bottom: 16px;
+}
+
+.cifras {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 2px solid #1c1a17;
+  border-bottom: 2px solid #1c1a17;
+}
+ 
+.cifra {
+  padding: 36px 20px;
+  border-left: 2px solid #1c1a17;
+}
+ 
+.cifra-numero {
+  color: #d6402b;
+  font-family: "Anton", Impact, sans-serif;
+  font-size: 64px;
+  line-height: 1;
+}
+ 
+.cifra-texto {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.equipo {
+  padding: 70px 0 90px;
+}
+ 
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+ 
+.tarjeta {
+  padding: 28px;
+  border: 2px solid #1c1a17;
+}
+ 
+.foto {
+  width: 90px;
+  height: 90px;
+  border: 2px solid #1c1a17;
+  border-radius: 50%;
+}
+ 
+.tarjeta h3 {
+  margin-top: 16px;
+  font-size: 30px;
+}
+ 
+.cargo {
+  color: #6b645a;
+  font-size: 15px;
+  font-weight: 700;
+}
+ 
+.recomienda {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px dashed #6b645a;
+}
+ 
+.recomienda p {
+  font-size: 14px;
+  font-weight: 700;
+}
+ 
+.recomienda .recomienda-titulo {
+  color: #d6402b;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 64px 0 28px;
+  background-color: #1c1a17;
+  color: #f2ebdd;
+}
+ 
+.footer a {
+  color: #f2ebdd;
+}
+ 
+.footer-columnas {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 48px;
+}
+ 
+.footer-marca {
+  width: 40%;
+}
+ 
+.footer-marca .logo {
+  font-size: 60px;
+}
+ 
+.footer-marca p {
+  margin-top: 16px;
+  font-size: 15px;
+  font-weight: 700;
+}
+ 
+.footer-col {
+  width: 20%;
+}
+ 
+.footer-titulo {
+  margin-bottom: 14px;
+  color: #e0a526;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+ 
+.footer-col a {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+ 
+.footer-col a:hover {
+  color: #d6402b;
+}
+ 
+.footer-abajo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+  border-top: 1px solid #6b645a;
+  font-size: 13px;
+  font-weight: 700;
+}
