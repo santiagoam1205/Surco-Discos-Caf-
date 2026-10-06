@@ -241,3 +241,108 @@ h2 {
   color: #6b645a;
   font-size: 14px;
 }
+
+/* CAFE Y CARTA APARTADO DE INDEX */
+
+.cafe {
+  padding-bottom: 70px;
+}
+
+.cafe-caja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid #1c1a17;
+}
+
+.cafe-texto {
+  padding: 50px;
+  background-color: #1c1a17;
+  color: #f2ebdd;
+}
+
+.cafe-texto h2 {
+  margin: 10px 0 20px;
+}
+
+.cafe-texto p {
+  max-width: 420px;
+}
+
+.cafe-texto .antetitulo {
+  color: #d6402b;
+}
+
+.cafe-texto .boton {
+  margin-top: 26px;
+}
+
+.carta {
+  padding: 40px 50px;
+}
+
+.carta h3 {
+  margin-bottom: 14px;
+  font-size: 34px;
+}
+
+.carta li {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px dashed #6b645a;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* AGENDA */
+
+.agenda {
+  padding: 70px 0;
+  border-top: 2px solid #1c1a17;
+}
+
+.eventos {
+  margin-top: 32px;
+  border-top: 2px solid #1c1a17;
+}
+
+.evento {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 2px solid #1c1a17;
+}
+
+.evento-fecha {
+  width: 105px;
+  font-family: "Anton", Impact, sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.dia {
+  display: block;
+  font-size: 56px;
+}
+ 
+.mes {
+  display: block;
+  font-size: 22px;
+}
+ 
+.evento-info {
+  flex: 1;
+}
+ 
+.evento-info h3 {
+  font-size: 32px;
+}
+ 
+.evento-info p {
+  color: #6b645a;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* NOSOTROS */
